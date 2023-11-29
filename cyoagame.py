@@ -16,7 +16,7 @@ with open("chooseDB-token.json") as f:
 CLIENT_ID = secrets["clientId"]
 CLIENT_SECRET = secrets["secret"]
 ASTRA_DB_KEYSPACE = "databse"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY =""
 
 auth_provider = PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)
 cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
