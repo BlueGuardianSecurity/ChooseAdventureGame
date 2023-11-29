@@ -4,3 +4,4 @@
 #from langchain.prompts import PromptTemplate
 
 I ran into several errors that I will come back to when I understand Python better. 
+You will want to input your own OpenAI key into the corresponding variable 
